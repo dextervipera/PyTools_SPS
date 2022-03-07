@@ -4,9 +4,12 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+The basic load data example
 """
 
-import numpy as np
 import pandas as pd
-df=pd.read_csv("kolumny_Cu_slupek-objetosc.csv", sep=',',header=0)
+
+# Importatnt: the original file end-of line is LF, may change to CRLF if needed
+
+Cu_data=pd.read_csv("kolumny_Cu_slupek-objetosc.csv", sep=',',header=0)
+NiAl_data=pd.read_csv("kolumny_Cu_slupek-objetosc.csv", sep=',',header=0)
